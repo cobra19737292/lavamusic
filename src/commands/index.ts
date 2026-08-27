@@ -4,7 +4,6 @@
 
 import _247 from "./config/247";
 import Dj from "./config/Dj";
-import Language from "./config/Language";
 import Setup from "./config/Setup";
 import CreateInvite from "./dev/CreateInvite";
 import DeleteInvites from "./dev/DeleteInvites";
@@ -68,7 +67,6 @@ import Steal from "./playlist/Steal";
 export const CommandList = [
 	_247,
 	Dj,
-	Language,
 	Setup,
 	CreateInvite,
 	DeleteInvites,
