@@ -30,7 +30,6 @@ import About from "./info/About";
 import Botinfo from "./info/Botinfo";
 import Help from "./info/Help";
 import Invite from "./info/Invite";
-import LavaLink from "./info/LavaLink";
 import Ping from "./info/Ping";
 import Autoplay from "./music/Autoplay";
 import ClearQueue from "./music/ClearQueue";
@@ -93,7 +92,6 @@ export const CommandList = [
 	Botinfo,
 	Help,
 	Invite,
-	LavaLink,
 	Ping,
 	Autoplay,
 	ClearQueue,
