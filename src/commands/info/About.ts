@@ -48,7 +48,7 @@ export default class About extends Command {
 		const embed = this.client
 			.embed()
 			.setAuthor({
-				name: "Lavamusic",
+				name: "ZENIN CLAN!",
 				iconURL:
 					"https://cdn.discordapp.com/attachments/1542574105713315990/1542584416486957077/file_0000000063c882119c5d243c067c9dda.png?ex=6a91c330&is=6a9071b0&hm=933e15d3b7ba76b44cf4c04b411ef1d68d4527f74cc4d99a75980b250994ffa9&",
 			})
