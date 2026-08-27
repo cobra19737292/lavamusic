@@ -43,28 +43,23 @@ export default class About extends Command {
 		const supportButton = new ButtonBuilder()
 			.setLabel(ctx.locale(I18N.buttons.support))
 			.setStyle(ButtonStyle.Link)
-			.setURL("https://discord.gg/YQsGbTwPBx");
+			.setURL("https://discord.gg/QRqdUVmxKA");
 		const row = new ActionRowBuilder<ButtonBuilder>().addComponents(inviteButton, supportButton);
 		const embed = this.client
 			.embed()
 			.setAuthor({
 				name: "Lavamusic",
 				iconURL:
-					"https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png",
+					"https://cdn.discordapp.com/attachments/1542574105713315990/1542584416486957077/file_0000000063c882119c5d243c067c9dda.png?ex=6a91c330&is=6a9071b0&hm=933e15d3b7ba76b44cf4c04b411ef1d68d4527f74cc4d99a75980b250994ffa9&",
 			})
 			.setThumbnail(
-				"https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png",
+				"https://cdn.discordapp.com/attachments/1542574105713315990/1542584416486957077/file_0000000063c882119c5d243c067c9dda.png?ex=6a91c330&is=6a9071b0&hm=933e15d3b7ba76b44cf4c04b411ef1d68d4527f74cc4d99a75980b250994ffa9&",
 			)
 			.setColor(this.client.color.main)
 			.addFields(
 				{
-					name: ctx.locale(I18N.commands.about.fields.repository),
-					value: "[Here](https://github.com/bongodevs/lavamusic)",
-					inline: true,
-				},
-				{
 					name: ctx.locale(I18N.commands.about.fields.support),
-					value: "[Here](https://discord.gg/jgGEbxFbyM)",
+					value: "[Here](https://discord.gg/QRqdUVmxKA)",
 					inline: true,
 				},
 				{
