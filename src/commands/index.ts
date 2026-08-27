@@ -27,7 +27,6 @@ import Speed from "./filters/Speed";
 import Tremolo from "./filters/Tremolo";
 import Vibrato from "./filters/Vibrato";
 import About from "./info/About";
-import Botinfo from "./info/Botinfo";
 import Help from "./info/Help";
 import Invite from "./info/Invite";
 import Ping from "./info/Ping";
@@ -89,7 +88,6 @@ export const CommandList = [
 	Tremolo,
 	Vibrato,
 	About,
-	Botinfo,
 	Help,
 	Invite,
 	Ping,
