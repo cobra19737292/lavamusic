@@ -40,7 +40,6 @@ import Grab from "./music/Grab";
 import Join from "./music/Join";
 import Leave from "./music/Leave";
 import Loop from "./music/Loop";
-import Lyrics from "./music/Lyrics";
 import Move from "./music/Move";
 import Nowplaying from "./music/Nowplaying";
 import Pause from "./music/Pause";
@@ -105,7 +104,6 @@ export const CommandList = [
 	Join,
 	Leave,
 	Loop,
-	Lyrics,
 	Move,
 	Nowplaying,
 	Pause,
