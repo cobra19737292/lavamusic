@@ -1,6 +1,7 @@
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle } from "discord.js";
 import type { Player } from "lavalink-client";
 import { I18N, t } from "../structures/I18n";
+import config from "../config";
 
 function getButtons(player: Player): ActionRowBuilder<ButtonBuilder>[] {
 	const buttonData = [
