@@ -8,54 +8,54 @@ function getButtons(player: Player): ActionRowBuilder<ButtonBuilder>[] {
 		{
 			customId: "previous",
 			style: ButtonStyle.Secondary,
-			emoji: "⏮️",
+			emoji: "config.emoji.previous",
 		},
 		{
 			customId: "rewind",
 			style: ButtonStyle.Secondary,
-			emoji: "⏪",
+			emoji: "config.emoji.rewind",
 		},
 		{
 			customId: "resume",
 			style: player?.paused ? ButtonStyle.Success : ButtonStyle.Secondary,
-			emoji: player?.paused ? "▶️" : "⏸️",
+			emoji: player?.paused ? "config.emoji.resume" : "config.emoji.pause",
 		},
 		{
 			customId: "forward",
 			style: ButtonStyle.Secondary,
-			emoji: "⏩",
+			emoji: "config.emoji.forward",
 		},
 		{
 			customId: "skip",
 			label: t(I18N.buttons.skip),
 			style: ButtonStyle.Secondary,
-			emoji: "⏭️",
+			emoji: "config.emoji.skip",
 		},
 		{
 			customId: "vol_down",
 			style: ButtonStyle.Secondary,
-			emoji: "🔉",
+			emoji: "config.emoji.volume.down",
 		},
 		{
 			customId: "loop",
 			style: player?.repeatMode !== "off" ? ButtonStyle.Success : ButtonStyle.Secondary,
-			emoji: "🔁",
+			emoji: "config.emoji.loop.none",
 		},
 		{
 			customId: "stop",
 			style: ButtonStyle.Danger,
-			emoji: "⏹️",
+			emoji: "config.emoji.stop",
 		},
 		{
 			customId: "shuffle",
 			label: t(I18N.buttons.shuffle),
 			style: ButtonStyle.Secondary,
-			emoji: "🔀",
+			emoji: "config.emoji.shuffle",
 		},
 		{
 			customId: "vol_up",
 			style: ButtonStyle.Secondary,
-			emoji: "🔊",
+			emoji: "config.emoji.volume.up",
 		},
 	];
 
